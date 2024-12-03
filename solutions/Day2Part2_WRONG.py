@@ -8,6 +8,9 @@
 # in the end I just brute forced all possible deletion lists instead of only checking the ones which do not match
 # the criteria. For some reason this found the 2 hits I was missing
 
+# Note I have found the edge cases thx to reddit, I have included them in the repo. it detects a inc/dec direction
+# change 1 item too late
+
 from itertools import pairwise
 
 reports = open('../old_input/input_day2.txt', 'r').read().split('\n')
